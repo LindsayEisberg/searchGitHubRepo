@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "GutHub Repo Extension",
+  "version": "1.0",
+  "description": "Simple Chrome Extension to browse for GitHub repos",
+  "browser_action": {
+    "default_icon": "images/logo.png",
+    "default_popup": "popup.html",
+    "default_title": "Repo Search"
+  },
+  "content_security_policy": "script-src 'self' https://api.github.com/search/repositories; object-src 'self'"
+
+
+}

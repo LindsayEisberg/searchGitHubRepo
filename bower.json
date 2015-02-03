@@ -1,0 +1,23 @@
+{
+  "name": "chromeExtension",
+  "version": "0.0.0",
+  "authors": [
+    "Lindsay Eisberg <lindsay.eisberg@gmail.com>"
+  ],
+  "keywords": [
+    "Jquery",
+    "Javascript"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
